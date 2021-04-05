@@ -1,0 +1,40 @@
+﻿{
+  "propertyEditors": [
+    {
+      "alias": "RyanHelmn.ResponsiveImagePicker",
+      "name": "Responsive Image Picker",
+      "icon": "icon-umb-media",
+      "editor": {
+        "view": "~/App_Plugins/ResponsiveImagePicker/responsiveimagepicker.html",
+        "valueType": "JSON"
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "label": "Crops",
+            "description": "Add the crops for each breakpoint.",
+            "key": "crops",
+            "view": "/App_Plugins/ResponsiveImagePicker/responsiveimagepicker.prevalues.html"
+          },
+          {
+            "label": "Default Picture Classes",
+            "description": "Add the default picture classes.",
+            "key": "defaultPictureClasses",
+            "view": "textstring"
+          },
+          {
+            "label": "Default Image Classes",
+            "description": "Add the default image classes.",
+            "key": "defaultImageClasses",
+            "view": "textstring"
+          }
+        ]
+      }
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/ResponsiveImagePicker/utilities.js",
+    "~/App_Plugins/ResponsiveImagePicker/responsiveimagepicker.controller.js",
+    "~/App_Plugins/ResponsiveImagePicker/responsiveimagepicker.prevalues.controller.js"
+  ]
+}

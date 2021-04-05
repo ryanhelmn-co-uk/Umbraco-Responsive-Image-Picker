@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponsiveImagePicker.Site", ".website\ResponsiveImagePicker.Site.csproj", "{9a7b71b9-9d07-4d7f-9ef9-9e1af82e4faf}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResponsiveImagePicker", "src\ResponsiveImagePicker\ResponsiveImagePicker.csproj", "{c23d0bf1-c094-4f6e-b787-cadbda6f8c64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9a7b71b9-9d07-4d7f-9ef9-9e1af82e4faf}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9a7b71b9-9d07-4d7f-9ef9-9e1af82e4faf}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9a7b71b9-9d07-4d7f-9ef9-9e1af82e4faf}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9a7b71b9-9d07-4d7f-9ef9-9e1af82e4faf}.Release|Any CPU.Build.0 = Release|Any CPU
+		{c23d0bf1-c094-4f6e-b787-cadbda6f8c64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{c23d0bf1-c094-4f6e-b787-cadbda6f8c64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{c23d0bf1-c094-4f6e-b787-cadbda6f8c64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{c23d0bf1-c094-4f6e-b787-cadbda6f8c64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A4335E4-0198-4777-9409-64E22F1F8F2C}
+	EndGlobalSection
+EndGlobal

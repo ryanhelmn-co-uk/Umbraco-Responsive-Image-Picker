@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net472</TargetFramework>
+		<RootNamespace>ResponsiveImagePicker</RootNamespace>
+
+		<IncludeContentInPack>true</IncludeContentInPack>
+		<ContentTargetFolders>content</ContentTargetFolders>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<OutputPath>bin\output\</OutputPath>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="UmbracoCms.Web" Version="8.6.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="App_Plugins\**\*" />
+		<Compile Remove="**\*" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Include="Controllers\**\*" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="App_Plugins\ResponsiveImagePicker\responsiveImagePicker.controller.js" />
+	  <None Remove="App_Plugins\ResponsiveImagePicker\responsiveImagePicker.html" />
+	  <None Remove="App_Plugins\ResponsiveImagePicker\responsiveImagePicker.prevalues.controller.js" />
+	  <None Remove="App_Plugins\ResponsiveImagePicker\responsiveImagePicker.prevalues.html" />
+	  <None Remove="App_Plugins\ResponsiveImagePicker\utilities.js" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Include="Extensions\ResponsiveImageExtensions.cs" />
+	  <Compile Include="Models\Coordinates.cs" />
+	  <Compile Include="Models\Crop.cs" />
+	  <Compile Include="Models\FocalPoint.cs" />
+	  <Compile Include="Models\ResponsiveImage.cs" />
+	  <Compile Include="Models\ResponsiveImagePickerPreValues.cs" />
+	  <Compile Include="PropertyValueConverters\ResponsiveImagePropertyValueConverter.cs" />
+	</ItemGroup>
+</Project>
