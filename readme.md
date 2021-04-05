@@ -9,15 +9,24 @@
 
 ## Install
 
-Simply install the Umbraco Package or the Nuget Package (preferred)
+1. Simply install the Umbraco Package or the Nuget Package (preferred)
+2. Create the data type in the backoffice
+2.a. If you've used the image cropper before, you'll be familiar with the options available however you'll notice the breakpoint setting. Because the Responsive Image Picker utilises the picture tag, you can change the crops at your own breakpoints 🧙‍.
+2.b. There are also options to add default picture & image classes, a prime example would be adding ``w-100`` so your images fill the entire space with Bootstrap.
+3. Create/Edit the page you've added the Responsive Image Picker data type to and give it a whirl. In terms of usage in the CMS it functions exactly the same as the standard Image Cropper, except you'll notice it's a media picker instead.
+4. When trying to use the Responsive Image Picker in your code, you'll notice a handy extension that comes out of the box called ``GetPictureTag`` which contains a few optional parameters.
+
+
+## Usage
+
 
 ## Author
 
 👤 **Ryan Helmn**
 
-* Website: https://www.ryanhelmn.co.uk/
-* Twitter: [@ryanhelm](https://twitter.com/ryanhelmn)
-* Github: [@RyanHelmn](https://github.com/RyanHelmn)
+* Website: [https://www.ryanhelmn.co.uk/](https://www.ryanhelmn.co.uk/)
+* Twitter: [@RyanHelmn](https://twitter.com/ryanhelmn)
+* Github: [@RyanHelmnn](https://github.com/RyanHelmn)
 * LinkedIn: [@ryan-helmn-438b0b162](https://linkedin.com/in/ryan-helmn-438b0b162)
 
 ## Show your support
