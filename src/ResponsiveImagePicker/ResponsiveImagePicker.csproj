@@ -11,6 +11,16 @@
 	<PropertyGroup>
 		<OutputPath>bin\output\</OutputPath>
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<PackageId>RyanHelmn.ResponsiveImagePicker</PackageId>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Authors>Ryan Helmn</Authors>
+		<Product>Responsive Image Picker</Product>
+		<Description>An updated Umbraco Image Cropper property editor that utilises the media library.</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageTags>Umbraco, Image Cropper</PackageTags>
+		<PackageReleaseNotes>Initial release</PackageReleaseNotes>
+		<PackageIcon>responsiveimagepickericon.png</PackageIcon>
+		<PackageProjectUrl>https://www.ryanhelmn.co.uk/portfolio/responsive-image-picker-umbraco-package/</PackageProjectUrl>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -32,6 +42,10 @@
 	  <None Remove="App_Plugins\ResponsiveImagePicker\responsiveImagePicker.prevalues.controller.js" />
 	  <None Remove="App_Plugins\ResponsiveImagePicker\responsiveImagePicker.prevalues.html" />
 	  <None Remove="App_Plugins\ResponsiveImagePicker\utilities.js" />
+	  <None Include="..\..\images\responsiveimagepickericon.png">
+	    <Pack>True</Pack>
+	    <PackagePath></PackagePath>
+	  </None>
 	</ItemGroup>
 
 	<ItemGroup>
