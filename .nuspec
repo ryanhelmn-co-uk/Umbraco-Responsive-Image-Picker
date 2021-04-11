@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>ResponsiveImagePicker</id>
+    <version>1.0.0</version>
+    <authors>Ryan Helmn</authors>
+    <owners>Ryan Helmn</owners>
+    <projectUrl>https://www.ryanhelmn.co.uk/portfolio/responsive-image-picker-umbraco-package/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An updated Umbraco Image Cropper property editor that utilises the media library.</description>
+    <releaseNotes><![CDATA[1.0.0 Initial release]]></releaseNotes>
+    <copyright>Copyright 2021</copyright>
+    <tags>umbraco, umbraco-cms</tags>
+    <dependencies />
+  </metadata>
+  <files>
+    <file src="src\ResponsiveImagePicker\bin\output\ResponsiveImagePicker.dll" target="lib\net462" />
+    <file src="src\ResponsiveImagePicker\App_Plugins\ResponsiveImagePicker\**\*.*" target="content\App_Plugins\ResponsiveImagePicker" />
+  </files>
+</package>
