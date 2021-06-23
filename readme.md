@@ -7,6 +7,13 @@
 
 ### 🏠 [Homepage](https://www.ryanhelmn.co.uk/portfolio/responsive-image-picker-umbraco-package/)
 
+### Based off of:
+- https://github.com/umbraco/Umbraco-CMS/blob/v8/contrib/src/Umbraco.Web.UI.Client/src/views/propertyeditors/imagecropper/imagecropper.prevalues.controller.js
+- https://github.com/umbraco/Umbraco-CMS/blob/v8/contrib/src/Umbraco.Web.UI.Client/src/views/propertyeditors/imagecropper/imagecropper.prevalues.html
+- https://github.com/umbraco/Umbraco-CMS/blob/v8/contrib/src/Umbraco.Web.UI.Client/src/views/propertyeditors/imagecropper/imagecropper.controller.js
+- https://github.com/umbraco/Umbraco-CMS/blob/v8/contrib/src/Umbraco.Web.UI.Client/src/views/propertyeditors/imagecropper/imagecropper.html
+- https://github.com/umbraco/Umbraco-CMS/blob/v8/contrib/src/Umbraco.Web.UI.Client/src/utilities.js
+
 ## Install
 
 1. Simply install the Umbraco Package or the Nuget Package (preferred)
@@ -27,7 +34,3 @@ When trying to use the Responsive Image Picker in your code, you'll notice a han
 * Twitter: [@RyanHelmn](https://twitter.com/ryanhelmn)
 * Github: [@RyanHelmnn](https://github.com/RyanHelmn)
 * LinkedIn: [@ryan-helmn-438b0b162](https://linkedin.com/in/ryan-helmn-438b0b162)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
